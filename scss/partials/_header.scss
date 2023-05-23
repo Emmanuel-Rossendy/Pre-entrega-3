@@ -1,0 +1,12 @@
+header {   /* Color fondo header */
+    background-color: $color-header-fondo;
+
+    .navbar-brand{       /* Color y fuente de titulo header */
+        color: $color-header ;
+        font-family: "SaintCarell";
+        }
+    ul{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,114 @@
+    /* color fondo de main */
+    main {
+        background-color: $color-main;
+
+        h2 {
+            background-color: $color-box-fondo;
+            font-family: "CoolveticaCondensed";
+            color: $color-fuente-principal;
+            text-shadow: 1px 1px 1px $color-sombra-fuente;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            background-color: $color-box-fondo;
+            font-family: "CoolveticaCondensed";
+            color: $color-fuente-principal;
+            text-shadow: 1px 1px 1px $color-sombra-fuente;
+        }
+
+        section {
+            font-family: 'Montserrat', sans-serif;
+
+            .card {
+                background-color: $color-principal-card;
+
+                .card-title {
+                    flex-grow: 1;
+                    color: $color-fuente-principal;
+                    text-shadow: 2px 2px 2px $color-sombra-fuente;
+                }
+            }
+        }
+
+        .formulario-index {
+            background-color: $color-box-fondo-secundario;
+            font-family: "CoolveticaCondensed";
+
+            p {
+                background-color: $color-box-fondo;
+                color: $color-fuente-form;
+                font-family: "CoolveticaCondensed";
+            }
+        }
+
+        .promos {
+            background-color: $color-box-fondo-secundario;
+
+            h3 {
+                display: flex;
+                justify-content: center;
+                background-color: $color-box-fondo;
+                font-family: "CoolveticaCondensed";
+                color: $color-fuente-principal;
+                text-shadow: 1px 1px 1px $color-sombra-fuente;
+            }
+
+            .imagenes-promociones {
+                width: 270px;
+                height: 200px;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                font-family: "CoolveticaCondensed";
+                font-size: 18px;
+            }
+        }
+
+        .card-corporativo {
+            background-color: $color-principal-card;
+            justify-content: center;
+            color: $color-fuente-principal;
+            font-size: 21px;
+            font-family: "CoolveticaCondensed";
+            text-shadow: 1px 1px 1px $color-sombra-fuente;
+        }
+
+        .formulario-corporativo h3 {
+            background-color: $color-bk-titulo-form;
+            color: $color-fuente-form;
+            font-family: "CoolveticaCondensed";
+        }
+
+        .lista-sucursales {
+            background-color: $color-box-fondo-secundario;
+
+            p {
+                font-family: "CoolveticaCondensed";
+                font-size: 18px;
+            }
+        }
+
+        .formulario-contacto h3 {
+            background-color: $color-bk-titulo-form;
+            color: $color-fuente-form;
+            font-family: "CoolveticaCondensed";
+        }
+        .card-contacto {
+            background-color: rgba(98, 55, 139, 0.945);
+            justify-content: center;
+            color: white;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
