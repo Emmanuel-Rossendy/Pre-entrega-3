@@ -1,0 +1,10 @@
+
+@mixin position($justify){
+    display: flex;
+    justify-content: $justify;
+}
+
+@mixin size($altura, $ancho){
+    width: $ancho;
+    height: $altura;
+}

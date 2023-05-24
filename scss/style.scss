@@ -3,37 +3,8 @@
 @import "partials/variables";
 @import "partials/reset";
 @import "partials/fonts";
+@import "partials/querys";
+@import "partials/mixin";
 @import "partials/header";
 @import "partials/main";
 @import "partials/footer";
-
-
-
-
-
-
-
-
-    
-    /* media querys */
-
-@media screen and (max-width: 750px) {
-    .formulario-corporativo {
-        width: 80%! important; }
-
-    .formulario-index {
-        width: 90%! important; }
-
-    .mapa-sucursal {
-        width: 90%! important; }
-
-    .imagenes-promociones {
-        width: 50%! important; }
-
-    .fuentes-promo {
-        margin-top: -5px! important; }
-
-    .formulario-contacto {
-        width: 90%! important;
-        margin-right: 20px! important; }
-}

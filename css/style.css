@@ -18,6 +18,28 @@
   font-family: "CoolveticaCondensed";
   src: url("../fonts/coolvetica condensed rg.otf");
 }
+/* media querys */
+@media screen and (max-width: 750px) {
+  .formulario-corporativo, main .formulario-contacto h3 {
+    width: 80% !important;
+  }
+  .formulario-index {
+    width: 90% !important;
+  }
+  .mapa-sucursal {
+    width: 90% !important;
+  }
+  .imagenes-promociones {
+    width: 50% !important;
+  }
+  .fuentes-promo {
+    margin-top: -5px !important;
+  }
+  .formulario-contacto {
+    width: 90% !important;
+    margin-right: 20px !important;
+  }
+}
 header { /* Color fondo header */
   background-color: blueviolet;
 }
@@ -34,7 +56,7 @@ header ul {
 main {
   background-color: rgba(18, 8, 110, 0.521);
 }
-main h2 {
+main h2, main h3 {
   background-color: rgba(42, 30, 44, 0.897);
   font-family: "CoolveticaCondensed";
   color: white;
@@ -43,10 +65,6 @@ main h2 {
 main h3 {
   display: flex;
   justify-content: center;
-  background-color: rgba(42, 30, 44, 0.897);
-  font-family: "CoolveticaCondensed";
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
 }
 main section {
   font-family: "Montserrat", sans-serif;
@@ -68,10 +86,10 @@ main .formulario-index p {
   color: rgba(180, 176, 184, 0.986);
   font-family: "CoolveticaCondensed";
 }
-main .promos {
+main .promos, main .lista-sucursales {
   background-color: rgba(23, 95, 129, 0.5);
 }
-main .promos h3 {
+main .promos h3, main .lista-sucursales h3 {
   display: flex;
   justify-content: center;
   background-color: rgba(42, 30, 44, 0.897);
@@ -79,12 +97,12 @@ main .promos h3 {
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
 }
-main .promos .imagenes-promociones {
+main .promos .imagenes-promociones, main .lista-sucursales .imagenes-promociones {
   width: 270px;
   height: 200px;
   padding-bottom: 1rem;
 }
-main .promos p {
+main .promos p, main .lista-sucursales p {
   font-family: "CoolveticaCondensed";
   font-size: 18px;
 }
@@ -96,22 +114,14 @@ main .card-corporativo {
   font-family: "CoolveticaCondensed";
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
 }
-main .formulario-corporativo h3 {
+main .formulario-corporativo h3, main .formulario-contacto h3 h3 {
   background-color: rgba(42, 30, 44, 0.897);
   color: rgba(180, 176, 184, 0.986);
   font-family: "CoolveticaCondensed";
-}
-main .lista-sucursales {
-  background-color: rgba(23, 95, 129, 0.5);
 }
 main .lista-sucursales p {
   font-family: "CoolveticaCondensed";
   font-size: 18px;
-}
-main .formulario-contacto h3 {
-  background-color: rgba(42, 30, 44, 0.897);
-  color: rgba(180, 176, 184, 0.986);
-  font-family: "CoolveticaCondensed";
 }
 main .card-contacto {
   background-color: rgba(98, 55, 139, 0.945);
@@ -122,29 +132,6 @@ main .card-contacto {
 footer { /* color fondo de footer */
   padding: 10px 10px 10px 10px;
   background-color: black;
-}
-
-/* media querys */
-@media screen and (max-width: 750px) {
-  .formulario-corporativo {
-    width: 80% !important;
-  }
-  .formulario-index {
-    width: 90% !important;
-  }
-  .mapa-sucursal {
-    width: 90% !important;
-  }
-  .imagenes-promociones {
-    width: 50% !important;
-  }
-  .fuentes-promo {
-    margin-top: -5px !important;
-  }
-  .formulario-contacto {
-    width: 90% !important;
-    margin-right: 20px !important;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,12 +10,8 @@
         }
 
         h3 {
-            display: flex;
-            justify-content: center;
-            background-color: $color-box-fondo;
-            font-family: "CoolveticaCondensed";
-            color: $color-fuente-principal;
-            text-shadow: 1px 1px 1px $color-sombra-fuente;
+            @extend h2;
+            @include position(center)
         }
 
         section {
@@ -47,8 +43,7 @@
             background-color: $color-box-fondo-secundario;
 
             h3 {
-                display: flex;
-                justify-content: center;
+                @include position(center);
                 background-color: $color-box-fondo;
                 font-family: "CoolveticaCondensed";
                 color: $color-fuente-principal;
@@ -56,8 +51,7 @@
             }
 
             .imagenes-promociones {
-                width: 270px;
-                height: 200px;
+                @include size(200px, 270px);
                 padding-bottom: 1rem;
             }
 
@@ -83,7 +77,7 @@
         }
 
         .lista-sucursales {
-            background-color: $color-box-fondo-secundario;
+            @extend .promos;
 
             p {
                 font-family: "CoolveticaCondensed";
@@ -92,9 +86,7 @@
         }
 
         .formulario-contacto h3 {
-            background-color: $color-bk-titulo-form;
-            color: $color-fuente-form;
-            font-family: "CoolveticaCondensed";
+            @extend .formulario-corporativo;
         }
         .card-contacto {
             background-color: rgba(98, 55, 139, 0.945);
