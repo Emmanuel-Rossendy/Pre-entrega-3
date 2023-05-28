@@ -39,6 +39,9 @@
     width: 90% !important;
     margin-right: 20px !important;
   }
+  .anuncio {
+    display: none;
+  }
 }
 header { /* Color fondo header */
   background-color: blueviolet;
